@@ -227,7 +227,7 @@
 (add-hook 'LaTeX-mode-hook
           (lambda ()
             (setq TeX-auto-untabify t)     ; remove all tabs before saving
-                  ;TeX-engine 'xetex       ; use xelatex default
+                  ;TeX-engine 'xetex)       ; use xelatex default
                   ;TeX-show-compilation t) ; display compilation windows
             (TeX-global-PDF-mode t)       ; PDF mode enable, not plain
             (setq TeX-save-query nil)
